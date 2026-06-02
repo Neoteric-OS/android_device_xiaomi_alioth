@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.alioth.rc",
+    src: "etc/init.alioth.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}

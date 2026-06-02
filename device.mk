@@ -40,6 +40,10 @@ PRODUCT_PACKAGES += \
 # Init
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_alioth)
 
+PRODUCT_PACKAGES += \
+    init.alioth.rc
+
+TARGET_NFC_SKU := pro
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \

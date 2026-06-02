@@ -18,6 +18,10 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 
+# VINTF
+ODM_MANIFEST_SKUS := pro
+ODM_MANIFEST_PRO_FILES := $(DEVICE_PATH)/manifest_pro.xml
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := alioth,aliothin
 

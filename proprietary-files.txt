@@ -394,9 +394,10 @@ vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
 # NFC
-vendor/etc/libnfc-nxp_RF.conf
 vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
 vendor/lib/libsn100u_fw.so
 
 # Sensor calibrate
