@@ -15,6 +15,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_alioth
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 
