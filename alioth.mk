@@ -14,6 +14,9 @@ $(call inherit-product, vendor/neoteric/target/product/neoteric-target.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+# Declare updates support
+IS_OFFICIAL := true
+
 PRODUCT_NAME := alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
