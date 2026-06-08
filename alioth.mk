@@ -14,6 +14,9 @@ $(call inherit-product, vendor/neoteric/target/product/neoteric-target.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+# Bootanimation resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Declare updates support
 IS_OFFICIAL := true
 
